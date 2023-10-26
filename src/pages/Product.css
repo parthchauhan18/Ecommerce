@@ -1,0 +1,107 @@
+.productPageContainer .productPageLayout {
+    padding: 50px;
+    display: flex;
+    height: 45vw;
+    gap: 50px;
+  }
+  .productPageContainer .leftSide {
+    flex: 1;
+  }
+  .productPageContainer .leftSide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .productPageContainer .rightSide {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .productPageContainer .rightSide .title {
+    font-weight: 300;
+    font-size: 45px;
+  }
+  .productPageContainer .rightSide .desc {
+    color: grey;
+    letter-spacing: 1px;
+    font-size: 18px;
+    width: 90%;
+  }
+  .productPageContainer .rightSide .price {
+    font-size: 40px;
+    color: rgb(80, 78, 78);
+    font-weight: 300;
+  }
+  .productPageContainer .rightSide .colorAndSizeContainer {
+    display: flex;
+    gap: 80px;
+  }
+  .productPageContainer .rightSide .colorAndSizeContainer .colorOption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .productPageContainer .rightSide .colorAndSizeContainer .colorOption .colorO1 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+  }
+  .productPageContainer .rightSide .colorAndSizeContainer .colorOption .colorO2 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    cursor: pointer;
+  }
+  .productPageContainer .rightSide .colorAndSizeContainer .colorOption .colorO3 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: grey;
+    cursor: pointer;
+  }
+  .productPageContainer .rightSide .colorAndSizeContainer .sizeOption {
+    display: flex;
+    gap: 10px;
+  }
+  .productPageContainer .rightSide .qtyAndCart{
+      display: flex;
+      gap: 100px;
+      align-items: center;
+  }
+  .productPageContainer .rightSide .qtyAndCart .qty{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  
+  }
+  .productPageContainer .rightSide .qtyAndCart .qty .plus{
+      font-size: 50px;
+      cursor: pointer;
+  }
+  .productPageContainer .rightSide .qtyAndCart .qty .minus{
+      font-size: 50px;
+      cursor: pointer;
+  }
+  .productPageContainer .rightSide .qtyAndCart .qty .counter{
+      height: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      border: 1px solid rgb(1, 84, 1);
+      border-radius: 5px;
+  }
+  .productPageContainer .rightSide .qtyAndCart .cart .btn{
+      padding: 10px 20px;
+      border: 2px solid rgb(1, 84, 1);
+      border-radius: 10px;
+      font-weight: 600;
+      letter-spacing: .5px;
+      cursor: pointer;
+  }

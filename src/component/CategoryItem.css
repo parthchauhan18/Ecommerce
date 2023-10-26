@@ -1,0 +1,41 @@
+.CContainer{
+    flex:1;
+    margin: 3px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative ;
+
+}
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+.Info{
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Title{
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.Button{
+    border: none;
+    width: 100px;
+    padding: 10px;
+    background-color: white;
+    color: grey;
+    cursor: pointer;
+}

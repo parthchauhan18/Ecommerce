@@ -1,0 +1,42 @@
+.newsLetterComponent{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #ffefef;
+}
+.newsLetterComponent .title{
+    font-size: 55px;
+}
+.newsLetterComponent .desc{
+    font-size: 25px;
+    color: grey;
+    letter-spacing: 1px;
+}
+.newsLetterComponent .inputContainer{
+    width: 48vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newsLetterComponent .input{
+    width: 90%;
+    height: 45px;
+    padding-left: 20px;
+    font-size: 17px;
+    border: 1px solid grey;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.newsLetterComponent .sendBtn{
+    height: 45px;
+    background-color: teal;
+    border: none;
+    padding: 10px 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

@@ -1,0 +1,71 @@
+.logContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logContainer::before {
+    content: "";
+    background: url("../../../public/bg4.avif") no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px) brightness(80%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.logContainer .regDetails{
+    border-radius: 5px;
+    width: 30%;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logContainer .title{
+    font-weight: 400;
+    color: rgb(79, 78, 78);
+}
+.logContainer .inputFields{
+    display: flex;
+    flex-direction: column;
+
+}
+.logContainer .inputFields input{
+    height: 50px;
+    width: 100%;
+    margin: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: grey;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 5px;
+}
+.logContainer .desc{
+    color: grey;
+    letter-spacing: 1px;
+}
+.logContainer .btn{
+    padding: 15px 20px;
+    width: 40%;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: white;
+    transition: .4s all ease-in-out;
+}
+.logContainer .btn:hover{
+    background-color: white;
+    color:teal;
+    border: 1px solid black;
+}

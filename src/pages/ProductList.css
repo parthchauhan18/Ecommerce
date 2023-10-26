@@ -1,0 +1,13 @@
+.productListFilterContainer .productListFilter {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 28px;
+  }
+  .productListFilterContainer .rightSide{
+    display: flex;
+    gap: 10px;
+  }
+  .productListFilterContainer .leftSide{
+    display: flex;
+    gap: 10px;
+  }

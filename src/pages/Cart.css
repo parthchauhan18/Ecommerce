@@ -1,0 +1,120 @@
+.cartContainer .mainContainer .mainTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+  }
+  .cartContainer .mainTop .btnLeft {
+    padding: 10px 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid black;
+  }
+  .cartContainer .mainTop .center {
+    display: flex;
+    gap: 15px;
+    color: rgb(71, 70, 70);
+    text-decoration: underline;
+  }
+  .cartContainer .mainTop .center .left,
+  .right {
+    cursor: pointer;
+  }
+  .cartContainer .mainTop .btnRight {
+    padding: 10px 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  .cartContainer .cartProductContainer {
+    width: 70vw;
+    padding: 20px;
+    gap: 30px;
+    display: flex;
+  }
+  .cartContainer .cartProductContainer .product {
+    display: flex;
+    gap: 20px;
+    padding: 0px 30px;
+    width: 70vw;
+  }
+  .cartContainer .cartProductContainer .product .cartProductImage {
+    height: 280px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+  }
+  .cartContainer .product .productInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  .cartContainer .product .productInfo .productName {
+    font-size: 20px;
+    color: rgb(40, 39, 39);
+  }
+  .cartContainer .product .productInfo .qtyID {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cartContainer .product .productInfo .qtyID .qty {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .cartContainer .product .productInfo .qtyID .qty .plus {
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .cartContainer .product .productInfo .qtyID .qty .counter {
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(2, 74, 2);
+  }
+  .cartContainer .product .productInfo .qtyID .qty .minus {
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .cartContainer .product .priceColorandSize .colorSize {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cartContainer .product .priceColorandSize .colorSize .color {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+  }
+  .cartContainer .product .priceColorandSize {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cartContainer .product .priceColorandSize .price {
+    font-size: 45px;
+    font-weight: 300;
+    color: rgb(87, 85, 85);
+  }
+  .cartContainer .product .priceColorandSize .size {
+    font-size: 20px;
+  }
+  .cartContainer .cartProductContainer .bill .flexBill{
+      display: flex;
+      gap: 200px;
+      justify-content: space-between;
+  }
+  .cartContainer .cartProductContainer .bill .tb .row  {
+      height: 30px;
+  } 
