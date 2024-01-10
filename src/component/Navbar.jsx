@@ -3,11 +3,7 @@ import { Search, ShoppingCartOutlined } from '@mui/icons-material';
 import React from 'react'
 import "./Navbar.css";
 import { Badge } from '@mui/material';
-
-
-
-
-
+import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div className='Container'>
@@ -16,7 +12,7 @@ const Navbar = () => {
                     <div className='language'>EN</div>
                     <div className='SearchContainer'>
                         <input />
-                        <Search style={{color:"grey", fontSize:16}}/>
+                        <Search style={{ color: "grey", fontSize: 16 }} />
                     </div>
                 </div>
                 <div className='Center'>
@@ -25,11 +21,16 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='Right'>
-                    <div className="MenuItem">
+                    {/* <div className="MenuItem">
                         REGISTER
-                    </div>
+                    </div> */}
                     <div className="MenuItem">
-                        SIGN IN
+                        <NavLink to={"/signIn"}>
+                            <button>sign in</button>
+                        </NavLink>
+                        <NavLink to={"/register "}>
+                            <button>Register</button>
+                        </NavLink>
                     </div>
                     <div className="MenuItem">
                         <Badge badgeContent={4} color='primary'>

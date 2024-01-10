@@ -47,9 +47,7 @@ export default function ProductList() {
           </div>
         </div>
       </div>
-      <Products />
-      <NewsLatter />
-      <Footer />
+     
     </div>
   );
 }
